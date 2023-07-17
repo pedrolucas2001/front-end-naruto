@@ -6,6 +6,7 @@
 *{
     padding: 0%;
     margin: 0%;
+    font-family: Ninja Naruto;
 }
 
 #pagina{
@@ -15,7 +16,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image: url(imgs/vale-do-fim2.jpg );
+    background-image: url(imgs/Vale-do-Fim.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -46,14 +47,13 @@
     width: 100px;
     height: 100px;
     border-radius: 100%;
-    background-image: url(imgs/logoSenju.png);
+    background-image: url(imgs/simboloKonoha.jpg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 #msgBemVindo{
-    font-family: Ninja Naruto;
     font-size: 30px;
     text-align: center;
 }
@@ -129,15 +129,24 @@ button{
     color: white;
     cursor: pointer;
     
+    
 }
 #botaoLogin a{
     text-decoration: none;
     color: white;
 }
-
+#txtLogin{
+    color: white;
+    font-size: 14px;
+}
 #opcoesCadastro{
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-around;
+    height: 50%;
+    margin: 0px auto;
     /* background-color: bisque; */
 }
 
